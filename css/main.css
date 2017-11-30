@@ -137,8 +137,9 @@ ul li {
 	transition: opacity 0.5s;
 }
 .navigation {
-	float: right;
+  text-align: center;
 }
+
 .navigation li {
 	display: inline-block;
 }
