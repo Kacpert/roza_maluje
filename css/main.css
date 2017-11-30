@@ -137,14 +137,19 @@ ul li {
 	transition: opacity 0.5s;
 }
 .navigation {
-  text-align: center;
+  text-align: right;
 }
 
 .navigation li {
 	display: inline-block;
 }
+
+.fixed .navigation a {
+	color: white!important;
+}
 .navigation a {
-	color: rgba(255, 255, 255, 0.75);
+	/*color: rgba(255, 255, 255, 0.75);*/
+	color: black;
 	font-size: 13px;
 	font-weight: 400;
 	margin-left: 40px;
@@ -338,7 +343,7 @@ ul li {
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 100px 15% 0;
+	padding: 50px 15% 0;
 }
 .intro h1 {
 	color: #000;
