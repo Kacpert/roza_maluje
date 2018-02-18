@@ -343,7 +343,7 @@ ul li {
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 50px 15% 0;
+	padding: 20px 10% 0;
 }
 .intro h1 {
 	color: #000;
@@ -384,6 +384,7 @@ ul li {
 	box-shadow: 0 0 0 1px #fff;
 	overflow: hidden;
 	position: relative;
+	max-height: 230px;
 }
 .work img {
 	width: 100%;
